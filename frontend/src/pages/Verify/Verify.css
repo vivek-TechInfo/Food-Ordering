@@ -1,0 +1,25 @@
+.verify{
+    min-width: 60vh;
+    /* background-color: rebeccapurple; */
+    display: grid;
+
+}
+
+.spinner{
+    width: 100px;
+    /* background-color: rebeccapurple; */
+    height: 100px;
+    place-self: center;
+    border: 5px solid #bdbdbd;
+    border-top-color:orangered ;
+    border-radius: 50%;
+    animation: rotate 1s infinite;
+}
+
+
+
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
